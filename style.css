@@ -34,10 +34,105 @@ nav{
 .banner{
     text-align: center;
     font-size: 45px;
-    padding: 40px         ;
+    padding: 40px;
 }
 header{
     background-image: url('/images/Hero-bg.png');
-    padding: none;
-    padding-top: 0;
+}
+/* Action Part */
+.action{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: left;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 34px;
+    padding: auto;
+}
+.action-description{
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-image{
+    border-radius: 30px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.user-color{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    padding-bottom: ;
+}
+.user-section{
+    background-color: #e9ecff;
+    margin: 80px 180px;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.user-title{
+    margin-top: 30px;
+    text-align: center;
+}
+/* Extra Section */
+.extra-section{
+    margin: 70px 150px;
+    padding: 50px 100px;
+}
+.extra-heading{
+    font-size: 45px;
+}
+.extra-title{
+    text-align: center;
+    padding: 20px;
+}
+.extra-image{
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+/* Form Section */
+.form-container{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    /* justify-content: space-around; */
+}
+.form-title{
+    font-size: 60px;
+    margin: 30px 40px;
+    /* padding: 30px 30px; */
+}
+.form-column{
+    width: 50%;
+    margin: 30px 40px;
+    /* padding: 30px 30px; */
+}
+form input[type="text"], form input[type="email"], form textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+/* Footer */
+.footer-container{
+    justify-content: center;
+}
+.footer-links{
+    display: flex;
+}
+.footer-color{
+    color: #8987A1;
 }
