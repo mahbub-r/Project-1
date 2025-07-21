@@ -37,7 +37,7 @@ nav{
     padding: 40px;
 }
 header{
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('/Hero-bg.png');
 }
 /* Action Part */
 .action{
@@ -108,21 +108,21 @@ form{
 }
 .form-title{
     font-size: 60px;
-    margin: 30px 40px;
+    /* margin: 30px 40px; */
     /* padding: 30px 30px; */
 }
 .form-column{
     width: 50%;
-    margin: 30px 40px;
+    /* margin: 30px 40px; */
     /* padding: 30px 30px; */
 }
-form input[type="text"], form input[type="email"], form textarea{
+footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
     border-radius: 5px;
     background-color: white;
     display: block;
     width: 100%;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     margin-bottom: 24px;
     border: none;
 }
